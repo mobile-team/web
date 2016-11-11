@@ -1,4 +1,4 @@
-stage 'Dev'
+stage 'Compile'
 node ('docker-cloud') {
     checkout scm
     mvn 'clean package'
