@@ -17,7 +17,7 @@ node ('docker-cloud') {
     deploy 'staging'
 }
 
-input message: "Does staging look good?"
+input message: "Does staging look goosd?"
 try {
     checkpoint('Before production')
 } catch (NoSuchMethodError _) {
